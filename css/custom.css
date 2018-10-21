@@ -1,10 +1,10 @@
-/*This Custom CSS file has not been structured in any particular order. 
+/*This Custom CSS file has not been structured in any particular order.
 
 Modify this file to your hearts content and make your website look awesome!*/
 
 
 body{
-	background-color: #ebebeb;
+	background-color: #FFFFFF;
 	padding-top: 80px;
 }
 
@@ -31,25 +31,26 @@ img.nav-bar-img{
 }
 
 .navbar{
-	background-color: #fff;
+	background-color: #F87060;
 
 }
-
+/* top nav bar name styles */
 a.navbar-brand{
-	font-family:'Montserrat', Sans-Serif;
-	font-size: 
+	font-family:'Oswald', Sans-Serif;
+	font-size:
 }
 
 /*Floating Nav*/
 .floating-nav{
 	position: fixed;
 	margin-top: 50px;
-	border-left: 1px solid #727272;
+	border-left: 1px solid #193A68;
 }
 
+				/*side nav bar styles */
 	a.float-nav-link{
-		font-family: 'Lato', Sans-Serif;
-		color: #595959;
+		font-family: 'Quattrocento', Sans-Serif;
+		color: #F87060;
 		font-size: 14px;
 		font-weight: 600;
 		text-align: left;
@@ -65,32 +66,34 @@ img{
 
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
-	font-family:'Montserrat', Sans-Serif;
+	font-family:'Oswald', Sans-Serif;
 	margin-bottom: 20px;
+
 }
 	h1.welcome-special{
 		font-size: 90px;
+		color: #F87060;
 	}
 
 	h2.welcome-special-sub{
-		font-family: 'Lato', Sans-Serif;
+		font-family: 'Quattrocento', Serif;
 		font-size: 30px;
 	}
 
 	h3{
-		text-transform: uppercase;
-		color: #a49727;
+		/* text-transform: uppercase; */
+		color: #F87060;
 		letter-spacing: -0.5px;
 	}
 
 p, li, span, a {
-	font-family: 'Lato', Sans-Serif;
+	font-family: 'Quattrocento', Serif;
 	text-align: justify;
 	font-weight: 300;
 }
 
 	p{
-		color: #494949;
+		color: #193A68;
 		line-height: 30px;
 		margin-bottom: 25px;
 	}
@@ -112,26 +115,26 @@ span.img-caption{
 }
 
 .welcome-button{
-	background-color: transparent;
-	border-radius: 0px 0px 0px 0px;
-	border: 3px solid #000;
-	font-family:'Montserrat', Sans-Serif;
-	font-size: 15px;
-	color: #000;
-	text-transform: uppercase;
+	background-color: #F87060;
+	border-radius: round;
+	border: 3px solid #F87060;
+	font-family:'Oswald', Sans-Serif;
+	font-size: 18px;
+	color: white;
+	/* text-transform: uppercase; */
 }
 
 .welcome-button:hover{
-	background-color: #000;
-	border-color: #000;
+	background-color: #193A68;
+	border-color: #193A68;
 }
 
 .master-heading{
-	padding-top: 50px;	
+	padding-top: 50px;
 }
 
 .section-heading{
-	padding-top: 100px;	
+	padding-top: 100px;
 }
 
 .slide-show{
@@ -144,9 +147,10 @@ span.img-caption{
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #989898;
-	border-top: 1px solid #727272;
+	background-color: #193A68;
+	border-top: 1px solid white;
 }
 
-
-
+.footer p{
+	color: white;
+}
