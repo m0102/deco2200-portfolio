@@ -4,7 +4,7 @@ Modify this file to your hearts content and make your website look awesome!*/
 
 
 body{
-	background-color: #FFFFFF;
+	background-color: #FFF7FC;
 	padding-top: 80px;
 }
 
@@ -31,7 +31,8 @@ img.nav-bar-img{
 }
 
 .navbar{
-	background-color: #F87060;
+	background-color: #3B3B3B;
+
 
 }
 /* top nav bar name styles */
@@ -40,21 +41,41 @@ a.navbar-brand{
 	font-size:
 }
 
+/* nav name styles */
+.navbar-light .navbar-brand {
+		color: white;
+}
+
+/*unselected pgs nav styles */
+.navbar-light .navbar-nav .nav-link {
+color: white;
+}
+
+/* selected pgs nav styles ('Process Journal')*/
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+color: #FF7759;
+}
+
+
 /*Floating Nav*/
 .floating-nav{
 	position: fixed;
 	margin-top: 50px;
-	border-left: 1px solid #193A68;
+	border-left: 1px solid #FF7759;
 }
 
 				/*side nav bar styles */
 	a.float-nav-link{
 		font-family: 'Quattrocento', Sans-Serif;
-		color: #F87060;
+		color: #FF7759;
 		font-size: 14px;
 		font-weight: 600;
 		text-align: left;
 	}
+
+.row-master-heading{
+	color: white;
+}
 
 /*Image Rules*/
 img{
@@ -68,11 +89,22 @@ img{
 h1, h2, h3, h4, h5, h6 {
 	font-family:'Oswald', Sans-Serif;
 	margin-bottom: 20px;
-
+	text-align: center;
 }
+/*process journal title */
+
+.row-master-heading, h1{
+	color: #3B3B3B;
+	text-align: center;
+}
+
+
+
+/*home pg styles??*/
+
 	h1.welcome-special{
 		font-size: 90px;
-		color: #F87060;
+		color: #FF7759;
 	}
 
 	h2.welcome-special-sub{
@@ -82,18 +114,23 @@ h1, h2, h3, h4, h5, h6 {
 
 	h3{
 		/* text-transform: uppercase; */
-		color: #F87060;
+		color: #FF7759;
 		letter-spacing: -0.5px;
+		/*transform: rotate(-90deg);*/
 	}
+
+
+
 
 p, li, span, a {
 	font-family: 'Quattrocento', Serif;
 	text-align: justify;
 	font-weight: 300;
+
 }
 
 	p{
-		color: #193A68;
+		color: #3B3B3B;
 		line-height: 30px;
 		margin-bottom: 25px;
 	}
@@ -141,13 +178,15 @@ span.img-caption{
 	padding: 30px 0px 50px 0px;
 }
 
+
+
 /*Footer*/
 .footer{
 	margin-top: 50px;
 	padding-top: 30px;
 	width: 100%;
 	min-height: 100px;
-	background-color: #193A68;
+	background-color: #3B3B3B;
 	border-top: 1px solid white;
 }
 
