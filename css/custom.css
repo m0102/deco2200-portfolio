@@ -75,10 +75,6 @@ color: #FF7759;
 		text-align: left;
 	}
 
-.row-master-heading{
-	color: white;
-}
-
 
 /*Image Rules*/
 img{
@@ -92,8 +88,17 @@ img{
 
  .topPageImg {
 	opacity: 0.5;
+	position: absolute;
+	width: 100%;
 }
 
+/*process journal title */
+
+.row.master-heading {
+	color: #3B3B3B;
+	text-align: center;
+	padding: 250px;
+}
 
 /*Font Override Rules*/
 h1, h2, h3, h4, h5, h6 {
@@ -101,13 +106,17 @@ h1, h2, h3, h4, h5, h6 {
 	margin-bottom: 20px;
 	text-align: center;
 }
-/*process journal title */
 
-.row-master-heading, h1{
+h1{
 	color: #3B3B3B;
 	text-align: center;
 }
 
+
+.wk5storyboards{
+	width: auto;
+	height: 10px;
+}
 
 
 /*home pg styles??*/
@@ -122,10 +131,11 @@ h1, h2, h3, h4, h5, h6 {
 		font-size: 30px;
 	}
 
-	h3{
+	.row-section-heading, h3{
 		/* text-transform: uppercase; */
 		color: #FF7759;
 		letter-spacing: -0.5px;
+		font-size: 30px;
 		/*transform: rotate(-90deg);*/
 	}
 
