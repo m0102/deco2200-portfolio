@@ -89,7 +89,7 @@ img{
  .topPageImg {
 	opacity: 0.5;
 	position: absolute;
-	width: 100%;
+
 }
 
 /*process journal title */
@@ -118,7 +118,9 @@ h1{
 	height: 10px;
 }
 
-
+.img-caption{
+	opacity: 0.3;
+}
 /*home pg styles??*/
 
 	h1.welcome-special{
