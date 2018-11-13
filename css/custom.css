@@ -41,22 +41,22 @@ body{
 
 	/* background: url('../img/process-journal/bus.jpg') no-repeat center center fixed; */
 	background-color: white;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 100px 50px 100px;
 }
 
 .portfolio-solution{
 	background-color: black;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 100px 50px 100px;
 }
 
 .portfolio-process{
 	background-color: white;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 100px 50px 100px;
 }
 
 .portfolio-reflection{
 	background-color: black;
-	padding: 0px 50px 0px 50px;
+	padding: 0px 100px 50px 100px;
 }
 
 /*Cards*/
