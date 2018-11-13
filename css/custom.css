@@ -37,6 +37,28 @@ body{
   -o-background-size: cover;
 }
 
+.portfolio-intro{
+
+	/* background: url('../img/process-journal/bus.jpg') no-repeat center center fixed; */
+	background-color: white;
+	padding: 0px 50px 0px 50px;
+}
+
+.portfolio-solution{
+	background-color: black;
+	padding: 0px 50px 0px 50px;
+}
+
+.portfolio-process{
+	background-color: white;
+	padding: 0px 50px 0px 50px;
+}
+
+.portfolio-reflection{
+	background-color: black;
+	padding: 0px 50px 0px 50px;
+}
+
 /*Cards*/
 .card{border: none; background-color: transparent;}
 
