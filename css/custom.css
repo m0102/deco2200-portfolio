@@ -45,15 +45,8 @@ body{
 }
 
 .portfolio-solution{
-
-
 	padding: 0px 100px 50px 100px;
 }
-
-
-
-
-
 
 .portfolio-process{
 	background-color: white;
@@ -65,12 +58,7 @@ body{
 }
 
 
-.mockup-app-row2 img{
-	display: block;
-	 margin-left: auto;
-	 margin-right: auto;
-	 width: 50%;
-}
+
 /*Cards*/
 .card{border: none; background-color: transparent;}
 
