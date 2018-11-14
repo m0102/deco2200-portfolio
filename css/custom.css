@@ -72,8 +72,16 @@ font-size: 18px;
 	color: #00F0C8;
 }
 
-.portfolio-solution p{
+
+.portfolio-solution p {
 color: white;
+}
+
+.portfolio-solution span.img-caption {
+color: white;
+opacity: 1;
+font-size: 15px;
+text-align: center;
 }
 
 .portfolio-process{
