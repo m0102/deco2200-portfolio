@@ -22,6 +22,7 @@ body{
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+
 }
 
 .portfolio-heading{
@@ -30,11 +31,25 @@ body{
 	padding-bottom: 0px;
 	width:100%;
 	min-height: 100vh;
-	background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
+	background: url('../img/portfolio/beachsydney.jpg') no-repeat center center fixed;
 	-webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
   -o-background-size: cover;
+}
+
+.portfolio-title{
+		background-color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-title h1{
+color: #00B5D3;
+
+}
+
+.portfolio-title p{
+color: white;
+font-size: 18px;
 }
 
 .portfolio-intro{
@@ -44,9 +59,21 @@ body{
 	padding: 0px 100px 50px 100px;
 }
 
+.portfolio-intro h3{
+	color: #00F0C8;
+}
+
 .portfolio-solution{
-	background-color: transparent;
 	padding: 0px 100px 50px 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-solution h3{
+	color: #00F0C8;
+}
+
+.portfolio-solution p{
+color: white;
 }
 
 .portfolio-process{
@@ -54,12 +81,31 @@ body{
 	padding: 0px 100px 50px 100px;
 }
 
+.portfolio-process h3{
+	color: #00F0C8;
+}
+
 .portfolio-reflection{
 	padding: 0px 100px 50px 100px;
+	background-color: rgba(0, 0, 0, 0.5);
+}
+
+.portfolio-reflection h3{
+	color: #00F0C8;
+}
+
+.portfolio-reflection p{
+color: white;
+}
+
+.blurb p{
+	text-align: center;
 }
 
 
-
+.portfolio-heading h3{
+	font-size: 35px;
+}
 /*Cards*/
 .card{border: none; background-color: transparent;}
 
@@ -250,7 +296,9 @@ span.img-caption{
 	min-height: 100px;
 	background-color: #3B3B3B;
 	border-top: 1px solid white;
+	background-color: rgba(0, 0, 0, 0.7);
 }
+
 
 .footer p{
 	color: white;
