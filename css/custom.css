@@ -66,12 +66,13 @@ font-size: 18px;
 .portfolio-solution{
 	padding: 0px 100px 50px 100px;
 	background-color: rgba(0, 0, 0, 0.5);
+
 }
 
 .portfolio-solution h3{
 	color: #00F0C8;
+	padding-bottom: 20px;
 }
-
 
 .portfolio-solution p {
 color: white;
