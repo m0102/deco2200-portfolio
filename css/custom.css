@@ -44,7 +44,7 @@ body{
 
 .portfolio-title h1{
 color: #00B5D3;
-
+font-size: 50px;
 }
 
 .portfolio-title p{
@@ -114,6 +114,21 @@ color: white;
 .portfolio-heading h3{
 	font-size: 35px;
 }
+
+.portfolio-footer{
+	margin-top: 0px;
+	padding-top: 30px;
+	width: 100%;
+	min-height: 100px;
+	background-color: #3B3B3B;
+	border-top: 1px solid white;
+	background-color: rgba(0, 0, 0, 0.8);
+}
+
+.portfolio-footer p{
+color: white;
+}
+
 /*Cards*/
 .card{border: none; background-color: transparent;}
 
