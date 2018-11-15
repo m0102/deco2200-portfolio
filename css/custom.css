@@ -107,6 +107,16 @@ text-align: center;
 color: white;
 }
 
+.portfolio-references {
+	padding: 0px 100px 50px 100px;
+	background-color: white;
+}
+
+.portfolio-references p{
+text-align: left;
+font-size: 12px;
+}
+
 .blurb p{
 	text-align: center;
 }
