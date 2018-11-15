@@ -17,7 +17,7 @@ body{
   padding-bottom: 100px;
   width:100%;
   min-height: 100vh;
-  background: url('../img/common/homepage_bg.jpg') no-repeat center center fixed;
+  background: url('../img/portfolio/yellowcup.jpg') no-repeat center center fixed;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -243,15 +243,7 @@ h1{
 }
 /*home pg styles??*/
 
-	h1.welcome-special{
-		font-size: 90px;
-		color: #FF7759;
-	}
 
-	h2.welcome-special-sub{
-		font-family: 'Quattrocento', Serif;
-		font-size: 30px;
-	}
 
 	.row-section-heading, h3{
 		/* text-transform: uppercase; */
@@ -284,6 +276,17 @@ span.img-caption{
 	padding: 10px 0px 10px 0px;
 }
 
+
+h1.welcome-special{
+	font-size: 90px;
+	color: #FF7759;
+}
+
+h2.welcome-special-sub{
+	font-family: 'Quattrocento', Serif;
+	font-size: 30px;
+}
+
 /*Container/class etc Override Rules*/
 .welcome-message{
 	margin-top: 200px;
@@ -291,6 +294,8 @@ span.img-caption{
 
 .welcome-button-container{
 	margin-top: 20px;
+	display: flex;
+	justify-content: center;
 }
 
 .welcome-button{
@@ -300,12 +305,13 @@ span.img-caption{
 	font-family:'Oswald', Sans-Serif;
 	font-size: 18px;
 	color: white;
+
 	/* text-transform: uppercase; */
 }
 
 .welcome-button:hover{
-	background-color: #193A68;
-	border-color: #193A68;
+	background-color: #70AD20;
+	border-color: #70AD20;
 }
 
 .master-heading{
